@@ -1,0 +1,9 @@
+# Sensitive API keys and credentials
+.env
+
+# Python caching and environment artifacts
+__pycache__/
+*.pyc
+
+# Local vector store indices (Excluded for clean database building on startup)
+faiss_index/
